@@ -1,0 +1,60 @@
+/* Styles */
+
+body {
+    color: #000080;
+    background-color: #ffffff;
+    display: block;
+}
+header {
+    font-weight: bold;
+    text-align: center;
+}
+.line-break {
+    display: block;
+}
+.home-page {
+    padding-bottom: 15px;
+}
+a {
+    color: #800080;
+}
+li {
+    padding-bottom: 20px;
+}
+a:visited {
+    color: #ff0000;
+}
+.float {
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+.small {
+    font-size: 7px;
+}
+
+.address {
+    font-size: 11px;  
+}
+
+.big {
+    font-size: 25px;
+}
+.border {
+    border-bottom: 1px solid #343434;
+    margin-bottom: 15px;
+}
+.geico {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.small-font {
+    font-size: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+footer span  {
+    padding-top: 15px;
+}
