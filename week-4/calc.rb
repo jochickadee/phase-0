@@ -67,31 +67,47 @@
 
 # puts 'So your Christian name is ' + first_name + ' ' + middle_name + ' ' + last_name + '?' 
 
-puts 'What is your favorite number?'
+# puts 'What is your favorite number?'
 
-number = gets.chomp
+# number = gets.chomp
 
-new_number = number.to_i + 1
+# new_number = number.to_i + 1
 
-puts 'Why not ' + new_number.to_s + '?'
-
-
+# puts 'Why not ' + new_number.to_s + '?'
 
 
+# puts 'What\'s your first name?'
+# first_name = gets.chomp
+# puts 'What\'s your middle name?'
+# middle_name = gets.chomp
+# puts 'What\'s your last name?'
+# last_name = gets.chomp
+
+# full_name = first_name + ' ' + middle_name + ' ' + last_name
+
+# full_name_length = first_name.length.to_s + middle_name.length.to_s + last_name.length.to_s
+
+# puts 'Did you know there are ' + full_name_length + 'characters in your name, ' + full_name + '?'
 
 
 
+# Angry Boss
 
+# puts 'Ask boss something:'
+# question = gets.chomp
+# puts 'WHADDYA MEAN "' + question + '"!?! Get out of my office!!!!'
 
+# Table of Contents
 
-
-
-
-
-
-
-
-
+line_width = 40
+head = 'Table of Contents'
+puts (head.center(line_width))
+ch = 'Chapter 1: Getting Started'
+pg = 'page 1'
+puts (ch.ljust(line_width/2)) + pg.rjust(line_width/2)
+ch = 'Chapter 2: Numbers'
+pg = 'page 9'
+puts (ch.ljust(line_width/2)) + pg.rjust(line_width/2)
 
 
 
