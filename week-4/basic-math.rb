@@ -1,4 +1,6 @@
 # Solution Below
+num1 = 13
+num2 = 42
 
 
 
