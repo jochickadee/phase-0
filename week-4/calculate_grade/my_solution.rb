@@ -1,7 +1,7 @@
 
 # Calculate a Grade
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [with: Patrick Oliphant].
 
 
 # Your Solution Below
