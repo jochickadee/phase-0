@@ -56,4 +56,4 @@ Strings are groups of letters that you can use as text in your program.
 A local variable is a place where you can store data and refer to it later in your code. 
 
 * How was this challenge? Did you get a good review of some of the basics?
-
+Yes, and this challenege showed me I need to hit the books a lot harder.
