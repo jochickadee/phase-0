@@ -19,6 +19,7 @@ puts 'Why not ' + new_number.to_s + '?'
 
 
 =begin
+[Defining a Method](https://github.com/jochickadee/phase-0/blob/master/week-4/4.3/define-method/my_solution.rb)
 
 [Return a Formatted Address](https://github.com/jochickadee/phase-0/blob/master/week-4/4.3/address/my_solution.rb)
 
