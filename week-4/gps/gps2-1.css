@@ -1,0 +1,46 @@
+
+h1, h2 {
+  color: #663300;
+}
+
+a {
+	text-decoration: none;
+	color: #663300;
+}
+
+a:hover {
+	color: #ff3300;
+}
+
+img {
+	max-width: 45%;
+  min-width: 35%;
+}
+
+body {
+  font-family: Tahoma;
+  background-color: grey;
+}
+
+header, footer {
+  width: 74%;
+}
+
+.column-1 {
+  width: 35%;
+  float: left;
+  position: relative;
+  margin-bottom: 3%;
+}
+
+.column-2 {
+  float: right;
+  margin-left: 5%;
+  position: absolute;
+  left: 35%;
+}
+
+footer {
+  clear: both;
+  position: static;
+}
