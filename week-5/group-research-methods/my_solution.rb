@@ -35,12 +35,23 @@ end
 
 
 # Person 3
-def my_array_sorting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+
+# Alphabetize array - nondestructive
+
+i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2 ]
+
+def my_array_sorting_method(array)
+  array.sort {|x,y| y <=> x }
 end
 
-def my_hash_sorting_method(source)
-   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+my_array_sorting_method(i_want_pets)
+
+# Arrange data in hash by age - nondestructive
+my_family_pets_ages = {"Evi" => 6, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4,
+  "Annabelle" => 0, "Ditto" => 3}
+
+def my_hash_sorting_method(hash)
+
 end
 
 # Identify and describe the Ruby method(s) you implemented.
