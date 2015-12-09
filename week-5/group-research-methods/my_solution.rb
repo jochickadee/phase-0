@@ -41,7 +41,7 @@ end
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2 ]
 
 def my_array_sorting_method(array)
-  array.sort {|x,y| y <=> x }
+  array.sort {|x,y| x.to_s <=> y.to_s}
 end
 
 my_array_sorting_method(i_want_pets)
