@@ -47,17 +47,20 @@ end
 my_array_sorting_method(i_want_pets)
 
 # Arrange data in hash by age - nondestructive
+
 my_family_pets_ages = {"Evi" => 6, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4,
   "Annabelle" => 0, "Ditto" => 3}
 
 def my_hash_sorting_method(hash)
-
+ hash.sort_by { |name, age| age}
 end
 
+my_hash_sorting_method(my_family_pets_ages)
+
 # Identify and describe the Ruby method(s) you implemented.
+# For the Alphabetize array challenge I used the .sort method, set the array values to string and used the combined comparison operator to alphabetize the array. 
 #
-#
-#
+# For the Arrange Data in a Hash challenge I used the sort_by enumerator to sort the hash by age. 
 
 
 # Person 4 - Peter lowe
